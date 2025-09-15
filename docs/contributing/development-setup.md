@@ -107,7 +107,6 @@ framework-docs/
 │   └── workflows/          # GitHub Actions workflows
 ├── mkdocs.yml              # MkDocs configuration
 ├── requirements.txt        # Python dependencies
-├── netlify.toml           # Netlify configuration
 └── README.md              # Project README
 ```
 
