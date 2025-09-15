@@ -51,13 +51,14 @@ The built site will be in the `site/` directory.
 
 ## Deployment
 
-This site is configured for deployment on Netlify. Simply connect your repository to Netlify and it will automatically build and deploy.
+This site is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
 
-### Build Settings for Netlify
+### GitHub Pages Configuration
 
+- **Source**: GitHub Actions
 - **Build command**: `mkdocs build`
 - **Publish directory**: `site`
-- **Python version**: 3.8+
+- **Live URL**: https://nandakishoremutyala.github.io/framework-docs
 
 ## Project Structure
 
